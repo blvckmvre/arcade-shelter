@@ -1,0 +1,88 @@
+import { IUpgrade } from "../types/upgrades";
+
+export const upgrades: IUpgrade[] = [
+  {
+    name: "Fortify",
+    description: "+1 coin/click",
+    type: "click",
+    value: 1,
+    cost: 100,
+  },
+  {
+    name: "Coin Finder",
+    description: "+1 coin/second",
+    type: "passive",
+    value: 1,
+    cost: 250,
+  },
+  {
+    name: "Metal Dump",
+    description: "+5 coins/second",
+    type: "passive",
+    value: 5,
+    cost: 1000,
+  },
+  {
+    name: "Pickaxe Mastery",
+    description: "+12 coins/click",
+    type: "click",
+    value: 12,
+    cost: 1500,
+  },
+  {
+    name: "Down the Coinpit",
+    description: "+15 coins/second",
+    type: "passive",
+    value: 15,
+    cost: 2000,
+  },
+  {
+    name: "Coin Molds",
+    description: "+25 coins/click",
+    type: "click",
+    value: 25,
+    cost: 5000,
+  },
+  {
+    name: "Loan Shark",
+    description: "+100 coins/second",
+    type: "passive",
+    value: 100,
+    cost: 50000,
+  },
+  {
+    name: "Higher Exchange Rate",
+    description: "+1,000 coins/click",
+    type: "click",
+    value: 1000,
+    cost: 1000000,
+  },
+  {
+    name: "Creator",
+    description: "+1 million coins/second",
+    type: "passive",
+    value: 1000000,
+    cost: 1000000000,
+  },
+  {
+    name: "Counterfeiting",
+    description: "+1 billion coins/second",
+    type: "passive",
+    value: 1000000000,
+    cost: 100000000000,
+  },
+  {
+    name: "A World of Autoclickers",
+    description: "+10 billion coins/click",
+    type: "passive",
+    value: 10000000000,
+    cost: 1000000000000,
+  },
+  // {
+  //   name: "Hand of the Lord",
+  //   description: "+Max_Safe coins/click",
+  //   type: "click",
+  //   value: Number.MAX_SAFE_INTEGER,
+  //   cost: 0,
+  // },
+];
